@@ -1,26 +1,104 @@
-.announcement {
-    display: none;
-    background: yellow;
-    margin-top: 40px;
-    font-size: 24px;
-    padding: 6px;
+@font-face {
+font-family: Rogan;
+font-weight: regular;
+src: url("fonts/Rogan.otf") format("opentype");
 }
 
-.red-circle {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    background: red;
-    position: absolute;
-    bottom: 25px;
-    right: 25px;
+@font-face {
+font-family: Rogan;
+font-weight: bold;
+src: url("fonts/Rogan_Bold.otf") format("opentype");
 }
 
-.blue-square {
-    height: 50px;
-    width: 50px;
-    background: blue;
-    position: absolute;
-    bottom: 25px;
-    left: 25px;
+body {
+  background-color:black;
+  overflow:hidden;
+
+}
+
+
+#flex_container {
+  width:100vw;
+  height:100vh;
+  background-color:black;
+  position:absolute;
+}
+
+.logo {
+  position:absolute;
+  left:0;
+  right:0;
+  top:41%;
+  text-align: center;
+}
+
+.content {
+  position:absolute;
+  left:0;
+  right:0;
+  top:35vh;
+  height:300px;
+  background-color:black;
+  opacity:1;
+}
+
+p {
+  font-family: "Rogan";
+  font-size: 12pt;
+  text-align: center;
+  color:#FFE912;
+  letter-spacing: 0.2em;
+}
+
+.bt{
+  font-family: "Rogan";
+  font-weight: bold;
+  font-size: 16pt;
+  text-align: center;
+}
+
+#hint {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 15%;
+  text-align: center;
+}
+
+#hint .message {
+  display: inline-block;
+  color: #FFE912;
+  font-family: "Rogan";
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  border-radius: 10.56px;
+  border:1px solid #FFE912;
+  border-color: #FFE912;
+  padding: 0 16px;
+}
+
+.second_container {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  background-color:blue;
+}
+.video {
+  width:100vw;
+  height:93vh;
+  display:none;
+}
+
+.bottom_p {
+  width:100vw;
+  height:7vh;
+  background-color:black;
+  float:left;
+  text-align: center;
+}
+
+.phone {
+  width:400px;
+  cursor:pointer;
 }
