@@ -20,7 +20,6 @@ body {
 #flex_container {
   width:100vw;
   height:100vh;
-  background-color:black;
   position:absolute;
 }
 
@@ -38,9 +37,11 @@ body {
   right:0;
   top:35vh;
   height:300px;
-  background-color:black;
+  background: black;
   opacity:1;
 }
+
+
 
 p {
   font-family: "Rogan";
@@ -82,7 +83,6 @@ p {
   position:absolute;
   bottom:0;
   width: 100%;
-  background-color:black;
 }
 .video {
   width:100vw;
@@ -101,4 +101,150 @@ p {
 .phone {
   width:400px;
   cursor:pointer;
+}
+
+.noise_container {
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  background-color:black;
+}
+
+.scream{
+  position: absolute;
+  width:200px;
+  left:500px;
+  top:450px;
+  opacity:0;
+}
+
+.BadRadio{
+  position: absolute;
+  width:200px;
+  left:200px;
+  top:200px;
+  opacity:0;
+}
+
+.Bell{
+  position: absolute;
+  width:200px;
+  left:750px;
+  top:80px;
+  opacity:0;
+}
+
+.Car{
+  position: absolute;
+  width:300px;
+  left:1100px;
+  top:600px;
+  opacity:0;
+}
+
+.Crow{
+  position: absolute;
+  width:300px;
+  left:900px;
+  top:300px;
+  opacity:0;
+}
+
+.Data1{
+  position: absolute;
+  width:800px;
+  left:900px;
+  top:600px;
+  opacity:0;
+}
+
+.Data2{
+  position: absolute;
+  width:800px;
+  left:50px;
+  top:160px;
+  opacity:0;
+}
+
+.Dog{
+  position: absolute;
+  width:250px;
+  left:1250px;
+  top:300px;
+  opacity:0;
+}
+
+.Drum{
+  position: absolute;
+  width:250px;
+  left:200px;
+  top:400px;
+  opacity:0;
+}
+
+.Hit{
+  position: absolute;
+  width:250px;
+  left:500px;
+  top:300px;
+  opacity:0;
+}
+
+.Machine{
+  position: absolute;
+  width:1600px;
+  opacity:0;
+}
+
+.Saw{
+  position: absolute;
+  width:200px;
+  left:300px;
+  top:500px;
+  opacity:0;
+}
+
+.Sew{
+  position: absolute;
+  width:200px;
+  left:800px;
+  top:300px;
+  opacity:0;
+}
+
+.scream2{
+  position: absolute;
+  width:200px;
+  left:1100px;
+  top:400px;
+  opacity:0;
+}
+
+.u{
+  position: absolute;
+  width:200px;
+  left:400px;
+  top:180px;
+  opacity:0;
+}
+
+.Bird{
+  position: absolute;
+  width:250px;
+  left:500px;
+  top:500px;
+  opacity:0;
+}
+
+.Wow{
+  position: absolute;
+  width:200px;
+  left:740px;
+  top:400px;
+  opacity:0;
+}
+
+.active{
+  transition: opacity 0.1s ease;
+  opacity:1;
 }
