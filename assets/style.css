@@ -31,6 +31,16 @@ body {
   text-align: center;
 }
 
+.container_active {
+  position:absolute;
+  display: flex;
+  width:100%;
+  height:100vh;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 .content {
   position:absolute;
   left:0;
@@ -73,10 +83,36 @@ p {
   font-size: 12px;
   letter-spacing: 0.05em;
   line-height: 32px;
-  border-radius: 10.56px;
+  border-radius: 5px;
   border:1px solid #FFE912;
   border-color: #FFE912;
   padding: 0 16px;
+}
+
+.ticket {
+  position: absolute;
+  left: 10px;
+  right: 0;
+  top: 80vh;
+  text-align: center;
+}
+
+.ticket .buy {
+  display: inline-block;
+  color: #FFE912;
+  font-family: "Rogan";
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  line-height: 32px;
+  border-radius: 5px;
+  border:1px solid;
+  border-color: #FFE912;
+  padding: 0 16px;
+}
+
+.buy:hover {
+  color: black;
+  background-color: #FFE912;
 }
 
 .second_container {
@@ -103,12 +139,6 @@ p {
   cursor:pointer;
 }
 
-.noise_container {
-  width:100vw;
-  height:100vh;
-  position:absolute;
-  background-color:black;
-}
 
 .scream{
   position: absolute;

@@ -43,6 +43,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==98){
         el = $('.Saw');
@@ -52,6 +53,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==99){
         el = $('.Car');
@@ -61,6 +63,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==100){
         el = $('.Dog');
@@ -70,6 +73,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==101){
         el = $('.Data1');
@@ -79,6 +83,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==102){
         el = $('.Machine');
@@ -88,6 +93,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==103){
         el = $('.Crow');
@@ -97,6 +103,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==104){
         el = $('.Saw');
@@ -106,6 +113,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==105){
         el = $('.Drum');
@@ -115,6 +123,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==106){
         el = $('.scream2');
@@ -124,6 +133,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==107){
         el = $('.BadRadio');
@@ -133,6 +143,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==108){
         el = $('.Sew');
@@ -142,6 +153,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==109){
         el = $('.scream');
@@ -151,6 +163,7 @@ $('document').ready(function(){
            el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==110){
         el = $('.Data1');
@@ -160,6 +173,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==111){
         el = $('.Car');
@@ -169,6 +183,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==112){
         el = $('.Bird');
@@ -178,6 +193,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==113){
         el = $('.Hit');
@@ -187,6 +203,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==114){
         el = $('.Data2');
@@ -196,6 +213,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==115){
         el = $('.Saw');
@@ -205,6 +223,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==116){
         el = $('.Sew');
@@ -214,6 +233,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==117){
         el = $('.u');
@@ -223,6 +243,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==118){
         el = $('.Data2');
@@ -232,6 +253,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==119){
         el = $('.Wow');
@@ -241,6 +263,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==120){
         el = $('.Bird');
@@ -250,6 +273,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==121){
         el = $('.BadRadio');
@@ -259,6 +283,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==122){
         el = $('.Drum');
@@ -268,6 +293,7 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
       }
       if(a.which==32){
         el = $('.Bell');
@@ -277,6 +303,9 @@ $('document').ready(function(){
          el.removeClass('active');
        });
        $('.content').fadeOut();
+       $('.message').fadeOut();
+
+
       }
     });
 
@@ -285,10 +314,10 @@ $('document').ready(function(){
   $('#flex_container').mouseenter(function(){
         $('.content').fadeOut()});
 
-  $('.noise').mouseenter(function(){
+  $('.activator').mouseenter(function(){
         $('.content').fadeIn()});
 
-  $('.content').mouseleave(function(){
+  $('.activator').mouseleave(function(){
         $('.content').fadeOut()});
 
 
