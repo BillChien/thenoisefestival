@@ -78,14 +78,12 @@ p {
 
 #hint .message {
   display: inline-block;
-  color: #FFE912;
+  color: #929497;
   font-family: "Rogan";
   font-size: 12px;
   letter-spacing: 0.05em;
-  line-height: 32px;
-  border-radius: 5px;
-  border:1px solid #FFE912;
-  border-color: #FFE912;
+  line-height: 28px;
+  border-radius: 20px;
   padding: 0 16px;
 }
 
@@ -93,7 +91,7 @@ p {
   position: absolute;
   left: 10px;
   right: 0;
-  top: 80vh;
+  top: 66vh;
   text-align: center;
 }
 
@@ -101,9 +99,9 @@ p {
   display: inline-block;
   color: #FFE912;
   font-family: "Rogan";
-  font-size: 12px;
+  font-size:19px;
   letter-spacing: 0.05em;
-  line-height: 32px;
+  line-height: 40px;
   border-radius: 5px;
   border:1px solid;
   border-color: #FFE912;
